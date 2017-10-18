@@ -22,25 +22,34 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   height: 31rem;
+  margin-top: 0rem;
+
+
 }
 .header-bar {
   background-color: cadetblue;
   margin-top: 1rem;
+  align-items: center;
+  height: 3.4rem;
+  justify-content: flex-end;
 }
-.logo {
-  margin-left: 2rem;
-  margin-right: 1rem;
+.logo img {
+  margin: auto 1rem auto 2rem;
   height: 1.5rem;
 }
-.site-name {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
 }
+
 nav {
   display: inline-block;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.nav-item {
 
+.nav-item {
+  margin-right: 2rem;
 }
